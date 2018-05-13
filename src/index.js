@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// eslint-disable-next-line
 import { Router, browserHistory, Route, Link } from 'react-router';
+// eslint-disable-next-line
 import { Provider } from 'react-redux'
+// eslint-disable-next-line
 import { createStore, combineReducers } from 'redux'
+// eslint-disable-next-line
 import { routerReducer } from 'react-router-redux';
+// eslint-disable-next-line
 import { syncHistoryWithStore } from 'react-router-redux';
+// eslint-disable-next-line
 import registerServiceWorker from './registerServiceWorker';
+// eslint-disable-next-line
 import { Home, Constructor, Author, TokenSale, Terms } from './components'
+// eslint-disable-next-line
 import { allReducers } from './components/reducers';
 
 

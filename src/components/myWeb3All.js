@@ -37,8 +37,11 @@ var email = '_query2132'
 var wallet = '_query21122'
 var walletType = '_query23322'
 var amount = '_query23322'
+// eslint-disable-next-line
 const addUser = myContract.methods.addUser(name, email, wallet, walletType, amount)
+// eslint-disable-next-line
 const confirmOwner = myContract.methods.confirmOwner()
+// eslint-disable-next-line
 const owner = myContract.methods.owner()
 
 
@@ -59,6 +62,7 @@ var sendInfura = (name,email,wallet,walletType,amount) => {
   // contractFunction = myContract.methods.confirmOwner()
   contractFunction = myContract.methods.addUser(name, email, wallet, walletType, amount)
   const functionAbi = contractFunction.encodeABI()
+  // eslint-disable-next-line
   let estimatedGas
   contractFunction.estimateGas({
     from: ACCOUNT_ADDRESS,
@@ -83,6 +87,7 @@ var sendInfura = (name,email,wallet,walletType,amount) => {
     //
     const serializedTx = tx.serialize()
     //
+    // eslint-disable-next-line
     web3.eth.sendSignedTransaction('0x' + serializedTx.toString('hex')).
       on('receipt', console.log)
   })

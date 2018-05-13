@@ -8,6 +8,7 @@ import { Button, Navbar, Nav, NavItem, NavDropdown, MenuItem, Table, ListGroup, 
 import {Menu} from './parts/Menu'
 // eslint-disable-next-line
 import {contract,serverWallet,provider,newWallet,sendInfura} from './myWeb3All.js'
+// eslint-disable-next-line
 import FieldGroup from './parts/FieldGroup'
 
 

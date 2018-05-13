@@ -5,10 +5,13 @@ import { Router, browserHistory, Route, Link } from 'react-router';
 import { connect } from 'react-redux';
 // eslint-disable-next-line
 import { Button, Navbar, Nav, NavItem, NavDropdown, MenuItem, Table, ListGroup, ListGroupItem, PageHeader, Panel, PanelGroup, Glyphicon, ButtonGroup, FormGroup, FormControl, ControlLabel, HelpBlock, ButtonToolbar, ToggleButton, ToggleButtonGroup } from 'react-bootstrap';
+// eslint-disable-next-line
 import {Menu} from './parts/Menu'
 // eslint-disable-next-line
 import {contract,serverWallet,provider,newWallet,sendInfura} from './myWeb3All.js'
+// eslint-disable-next-line
 import FieldGroup from './parts/FieldGroup'
+// eslint-disable-next-line
 import {terms} from './helpers/terms'
 
 

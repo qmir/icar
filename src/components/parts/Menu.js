@@ -29,6 +29,7 @@ export class Menu extends Component {
           <Link key={index} to={currentValue.link}>{currentValue.text}</Link>
         </NavItem>
       )
+      return
     })
     this.setState({menuList:arr})
   }
