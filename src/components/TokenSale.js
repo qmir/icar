@@ -162,7 +162,7 @@ export class TokenSale extends Component {
           </Checkbox>
           <Button bsSize="" bsStyle="link"
               onClick={this.showHideModal}>
-              (Read)
+              (Read Terms)
           </Button>
           <br/>
           <br/>
