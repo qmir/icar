@@ -23,13 +23,13 @@ export class Menu extends Component {
   // some functions
   updateMenu(links) {
     var arr = []
+    // eslint-disable-next-line
     links.map((currentValue, index, array) => {
       arr.push(
         <NavItem key={"link_"+index} href="#">
           <Link key={index} to={currentValue.link}>{currentValue.text}</Link>
         </NavItem>
       )
-      return
     })
     this.setState({menuList:arr})
   }

@@ -26,6 +26,7 @@ const initialState = {
 }
 
 
+// eslint-disable-next-line
 function showUser(state=initialState, action) {
   if (action.type === 'SIGN_IN') {
     return {
