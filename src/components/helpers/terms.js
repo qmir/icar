@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React, { Component } from 'react';
 
 var terms = <p> ETH: 0x8effebdB43c4E2B2e53961708B307CccFf7D5f96

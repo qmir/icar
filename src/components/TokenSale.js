@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
+// eslint-disable-next-line
 import { Router, browserHistory, Route, Link } from 'react-router';
+// eslint-disable-next-line
 import { connect } from 'react-redux';
+// eslint-disable-next-line
 import { Button, Navbar, Nav, NavItem, NavDropdown, MenuItem, Table, ListGroup, ListGroupItem, PageHeader, Panel, PanelGroup, Glyphicon, ButtonGroup, FormGroup, FormControl, ControlLabel, HelpBlock, ButtonToolbar, ToggleButton, ToggleButtonGroup, Checkbox, Radio } from 'react-bootstrap';
 import {Menu} from './parts/Menu'
+// eslint-disable-next-line
 import {contract,serverWallet,provider,newWallet,sendInfura} from './myWeb3All.js'
 import FieldGroup from './parts/FieldGroup'
 import MyLargeModal from './parts/Modal'

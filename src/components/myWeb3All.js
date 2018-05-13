@@ -5,9 +5,13 @@ const Web3 = require('web3');
 const Tx = require('ethereumjs-tx');
 //Provider Engine sub-modules
 const ethers = require('ethers');
+// eslint-disable-next-line
 const Wallet = ethers.Wallet;
+// eslint-disable-next-line
 const Contract = ethers.Contract;
+// eslint-disable-next-line
 const utils = ethers.utils;
+// eslint-disable-next-line
 const providers = ethers.providers;
 
 
